@@ -1,0 +1,11 @@
+scrapy
+sentence-transformers
+openai
+spacy
+huggingface_hub
+accelerate
+selenium
+webdriver-manager
+beautifulsoup4
+urllib3
+PyMuPDF

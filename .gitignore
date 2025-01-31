@@ -1,0 +1,11 @@
+__pycache__
+venv
+test.ipynb
+data/logs
+test.py
+test*
+data/analysis
+data/reports
+data/index/sector_indexes
+data
+data/generated_reports
