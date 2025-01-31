@@ -33,29 +33,29 @@ This project implements an LLM-based system that enables conversational querying
   - 🤖 Using LLaMA to determine if webpage content is outdated  
 
 ### 🧹 Scrape Response Cleaning:
-- 🛑 Remove unwanted URLs from prefixes (**Done** ✅)  
-- 🔍 Obtain latest and investment-related URLs from remaining URLs (**Done** ✅)  
+- Remove unwanted URLs from prefixes (**Done** ✅)  
+- Obtain latest and investment-related URLs from remaining URLs (**Done** ✅)  
 
 ### 📑 Index Creation:
-- 🗑️ Remove duplicate paragraphs using similarity scores (**Threshold: > 0.99**)  
+- Remove duplicate paragraphs using similarity scores (**Threshold: > 0.99**)  
 
 ### ✂️ Chunking Web Page Text:
-- ⚖️ Strictly enforce maximum paragraph size  
+- Strictly enforce maximum paragraph size  
 
 ### 🚀 Embedding Optimization:
-- 🖥️ Provide **GPU compatibility**  
-- 📜 Pass **entire list of paragraphs** from scraped data instead of processing one-by-one  
+- Provide **GPU compatibility**  
+- Pass **entire list of paragraphs** from scraped data instead of processing one-by-one  
 
 ### 💬 Improving Conversation on Index:
-- 🚫 Ignore chunks under a certain similarity score  
-- 🔄 Add **previous model responses** to the prompt  
-- 📝 Modify prompts to instruct the model to consider past responses  
-- 🕰️ Keep **only the last 5 responses** in conversation  
-- 🧠 Use **Google's embedding model**  
-- 🔎 Try **AQC-type** of search instead of embeddings  
-  - 📌 Consider using **cluster-level summaries**?  
-- 📊 Compare indexed conversations **with and without cleaning**  
-- 🎯 Use **previous responses** for query enhancement  
-- 🎭 Ensure **only company-related** statements/phrases are used in query enhancement  
+- Ignore chunks under a certain similarity score  
+- Add **previous model responses** to the prompt  
+- Modify prompts to instruct the model to consider past responses  
+- Keep **only the last 5 responses** in conversation  
+- Use **Google's embedding model**  
+- Try **AQC-type** of search instead of embeddings  
+- Consider using **cluster-level summaries**?  
+- Compare indexed conversations **with and without cleaning**  
+- Use **previous responses** for query enhancement  
+- Ensure **only company-related** statements/phrases are used in query enhancement  
 
 
